@@ -288,7 +288,7 @@ form.addEventListener('submit', function (e) {
   e.preventDefault();
   // Validação básica
   var ok = true;
-  ['lead-nome', 'lead-tel', 'lead-email'].forEach(function (id) {
+  ['lead-nome', 'lead-tel'].forEach(function (id) {
     var input = document.getElementById(id);
     if (!input.value.trim()) {
       input.classList.add('error');
