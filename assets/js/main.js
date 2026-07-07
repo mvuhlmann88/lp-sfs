@@ -224,7 +224,6 @@
 var overlay  = document.getElementById('lead-overlay');
 var form     = document.getElementById('lead-form');
 var success  = document.getElementById('lead-success');
-var consent  = document.getElementById('lead-consent');
 var submit   = document.getElementById('lead-submit');
 var closeBtn = document.getElementById('lead-close');
 /* ── Máscara telefone ── */
