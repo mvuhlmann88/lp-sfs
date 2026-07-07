@@ -818,31 +818,31 @@
     }
   </style>
 
-  <!-- POPUP LEAD -->
-  <div id="lead-overlay" style="display:none;" aria-modal="true" role="dialog" aria-labelledby="popup-title">
-    <div id="lead-popup">
-      <button id="lead-close" aria-label="Fechar">&times;</button>
+<!-- POPUP LEAD -->
+<div id="lead-overlay" style="display:none;" aria-modal="true" role="dialog" aria-labelledby="popup-title">
+  <div id="lead-popup">
+    <button id="lead-close" aria-label="Fechar">&times;</button>
+    <form id="lead-form" novalidate>
       <h2 id="popup-title">Contrate já</h2>
       <p>Preencha seus dados e entraremos em contato pelo WhatsApp agora mesmo.</p>
-      <form id="lead-form" novalidate>
-        <div class="lead-field">
-          <label for="lead-nome">Nome completo</label>
-          <input type="text" id="lead-nome" placeholder="Seu nome" required>
-        </div>
-        <div class="lead-field">
-          <label for="lead-tel">WhatsApp</label>
-          <input type="tel" id="lead-tel" placeholder="(47) 99999-9999" required>
-        </div>
-        <p class="lead-consent-text">Eu concordo em receber comunicações e ofertas de acordo com o meu interesse ao enviar os dados acima.</p>
-        <button type="submit" id="lead-submit" disabled>Falar com um atendente</button>
-      </form>
-      <div id="lead-success" style="display:none;">
-        <div class="lead-success-icon">✅</div>
-        <h3>Obrigado pelas informações!</h3>
-        <p>Entraremos em contato agora mesmo pelo seu WhatsApp.</p>
+      <div class="lead-field">
+        <label for="lead-nome">Nome completo</label>
+        <input type="text" id="lead-nome" placeholder="Seu nome" required>
       </div>
+      <div class="lead-field">
+        <label for="lead-tel">WhatsApp</label>
+        <input type="tel" id="lead-tel" placeholder="(47) 99999-9999" required>
+      </div>
+      <p class="lead-consent-text">Ao enviar, você autoriza a Palmasnet a entrar em contato pelo WhatsApp com informações sobre planos e ofertas.</p>
+      <button type="submit" id="lead-submit" disabled>Falar com um atendente</button>
+    </form>
+    <div id="lead-success" style="display:none;">
+      <div class="lead-success-icon">✅</div>
+      <h3>Obrigado pelas informações!</h3>
+      <p>Entraremos em contato agora mesmo pelo seu WhatsApp.</p>
     </div>
   </div>
+</div>
 
   <!-- JS -->
   <script src="assets/js/main.js"></script>
